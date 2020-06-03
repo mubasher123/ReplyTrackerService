@@ -1,0 +1,51 @@
+{
+  "name": "gmailreplytracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com:fnblk/gmailreplytracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/fnblk/gmailreplytracker/issues"
+  },
+  "homepage": "https://gitlab.com/fnblk/gmailreplytracker#README",
+  "dependencies": {
+    "@sentry/node": "^5.5.0",
+    "amqplib": "^0.5.2",
+    "async": "^2.6.1",
+    "bunyan": "^1.8.12",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.19.0",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^6.1.0",
+    "email-reply-parser": "^1.2.2",
+    "get-urls": "^8.0.0",
+    "gmail-api-parse-message": "^2.1.0",
+    "gmail-api-sync": "^1.2.10",
+    "google-auth-library": "^3.0.1",
+    "google-batch": "0.0.8",
+    "googleapis": "^34.0.0",
+    "imap": "^0.8.19",
+    "imap-simple": "latest",
+    "lodash": "^4.17.11",
+    "logdna": "^3.2.1",
+    "mailparser": "^2.7.1",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.2",
+    "request": "^2.88.0",
+    "sort-by": "^1.2.0",
+    "xoauth2": "^1.2.0"
+  }
+}
