@@ -36,7 +36,7 @@
     "gmail-api-sync": "^1.2.10",
     "google-auth-library": "^3.0.1",
     "google-batch": "0.0.8",
-    "googleapis": "^34.0.0",
+    "googleapis": "^59.0.0",
     "imap": "^0.8.19",
     "imap-simple": "latest",
     "lodash": "^4.17.11",
